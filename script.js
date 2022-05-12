@@ -4,6 +4,8 @@ if (window.jQuery) {
     console.log ('Jquery is not connected');
   }
 
+AOS.init();
+
 /*
   $(document).bind( 'mousewheel', function (e) { 
     var nt = $(document.body).scrollTop()-(e.deltaY*e.deltaFactor*100); 
