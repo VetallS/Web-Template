@@ -25,6 +25,16 @@ h1 {
     background-clip: text;
 }
 
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    margin: 0px 0px 32px 0px;
+    color: #7579FF;
+}
+
 .container {
     max-width: 1190px;
     margin: 0 auto;
@@ -36,9 +46,8 @@ header {
     position: absolute;
     height: 72px;
     margin: 0 auto;
-    top: 56px;
+    top: 38px;
     left: 0;
-    width: 97%;
     z-index: 3;
     vertical-align: middle;
 
@@ -168,7 +177,7 @@ header p {
 .img-title {
     position: absolute;
     left: calc(50% - 1px);
-    top: calc(220px + 2vw);
+    top: calc(180px + 2vw);
     max-width: 44%;
     
     
@@ -186,7 +195,7 @@ header p {
     overflow: visible;
     max-width: 535px;
     width: 45%;
-    margin-top: calc(100px + 2vw);
+    margin-top: calc(64px + 2vw);
     margin-left: 16px;
 }
 
@@ -283,6 +292,7 @@ header p {
     width: 28px;
     height: 28px;
     margin: 0 18px 0 0;
+    cursor: pointer;
 }
 
 .partners {
@@ -302,3 +312,145 @@ header p {
     gap: 5.2vw;
 }
 
+.content-main {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    margin: 0 0 85px 0;
+    padding: 85px 0 0 0;
+    max-width: 1260px;
+}
+
+.textright-main {
+    text-align: right;
+    max-width: 546px;
+    width: 45%;
+}
+
+.textleft-main {
+    text-align: left;
+    max-width: 512px;
+    width: 45%;
+}
+
+.first-img {
+    max-width: 719px;
+    width: 65%;
+    min-width: 390px;
+}
+
+.second-img {
+    max-width: 621px;
+    width: 50%;
+    min-width: 390px;
+}
+
+.third-img {
+    max-width: 656px;
+    width: 65%;
+    min-width: 390px;
+}
+
+.textleft-main div,
+.textright-main div {
+    width: 100%;
+    text-align: center;
+}
+
+.wave-main {
+    /*display: none;*/
+    
+    /*width: 85%;*/
+    max-width: 261.08px;
+    width: 85%;
+    margin: 18px 0 0 0;
+    /*position: relative;
+    right: calc(50% - 261.08px/2 - 6.96px);*/
+}
+
+.card {
+    width: 100%;
+    background-color: #1B1C37;
+    min-height: 720px;
+    max-height: 1080px;
+    height: 100vh;
+    display: flex;
+    vertical-align: middle;
+}
+
+.card .container {
+    max-width: 1312px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px 56px;
+}
+
+.content-card {
+    text-align: left;
+    width: 39%;
+}
+
+.content-card h2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+
+.content-card p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #D7C6DB;
+}
+
+.card-img {
+    width: 60%;
+    margin-top: 4%;
+}
+
+footer {
+    background: #1B1C37;
+    height: 110px;
+}
+
+footer .container {
+    height: 100%;
+    max-width: 1312px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: middle;
+    padding: 0 56px;
+}
+
+footer p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12.5217px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.text-copyright {
+    font-weight: 400;
+    color: #C4C4C4;
+}
+
+footer .social-title {
+    margin: 0;
+    ;
+}
