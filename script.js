@@ -4,7 +4,7 @@ if (window.jQuery) {
     console.log ('Jquery is not connected');
 }
 
-//AOS.init();
+AOS.init();
 
 /*
   $(document).bind( 'mousewheel', function (e) { 
